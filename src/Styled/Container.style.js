@@ -5,7 +5,7 @@ export const Container = styled.section`
     width: 100%;
     max-width: ${props => props.$maxwidth}px ;
     height: 100%;
-    min-height: 100vh;
+    min-height: 30vh;
     margin: 0 auto;
     padding: 0 1rem;
     overflow: auto;

@@ -200,7 +200,7 @@ const handleTrashClick = async (id) => {
         <div>Slet ordre</div>
       </div>
       {cartData &&
-        cartData.map((item) => {
+        cartData.slice().reverse().map((item) => { // Reverse the array before mapping
           return (
             <div key={item.id}>
               <div>{item.posters.name}</div>

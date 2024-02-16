@@ -5,6 +5,8 @@ import { PosterList } from "../PosterList/PosterList";
 import { LoginPage } from '../../Pages/LoginPage/LoginPage';
 import { PosterDetails } from "../PosterDetails/PosterDetails";
 import { AboutPage } from '../../Pages/AboutPage/AboutPage';
+import { ContactPage } from "../../Pages/ContactPage/ContactPage"
+
 
 export const AppRouter = () => {
     return (
@@ -14,6 +16,7 @@ export const AppRouter = () => {
                 <Route path=":genreSlug" element={<PosterList />} />
                 <Route path=":genreSlug/:posterSlug" element={<PosterDetails />} />
             </Route>
+            <Route path="/contact" element={<ContactPage />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path='/about' element={<AboutPage />} />
         </Routes>
