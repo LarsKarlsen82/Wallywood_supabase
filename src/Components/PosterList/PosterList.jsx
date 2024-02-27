@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { useSupabase } from "../../Providers/SupabaseProvider"
 import { PosterListContainer } from "./PosterList.style"
 
+
 export const PosterList = () => {
   const { genreSlug } = useParams()
   const [posters, setPosters] = useState([])

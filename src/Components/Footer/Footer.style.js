@@ -4,7 +4,6 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 export const FooterContainer = styled.footer`
   grid-area: footer;
-
   position: relative;
   bottom: 0;
   top: 190px;
